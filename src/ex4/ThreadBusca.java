@@ -8,7 +8,7 @@ public class ThreadBusca extends Thread {
 	int inicio;
 	int fim;
 	int elemento;
-	int pos;
+	int pos = -1;
 	int count;
 
 	
@@ -17,9 +17,19 @@ public class ThreadBusca extends Thread {
 		this.elemento = elemento;
 		this.inicio = inicio;
 		this.fim = fim;
-		this.pos = pos;
+		
                
 		
+	}
+	
+	public void getCount {
+
+		this.count = count;
+	}
+
+	public void getPosition {
+
+		this.pos = pos;
 	}
 	
 	
