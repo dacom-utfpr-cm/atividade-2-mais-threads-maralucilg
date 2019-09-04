@@ -13,7 +13,7 @@ public class ex3Main {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Integer> primos = new ArrayList<Integer>();;
+		ArrayList<Integer> primos = new ArrayList<Integer>();
 		Thread[] vetorthreads = new Thread[3];
 		int aux = -1;
 		
