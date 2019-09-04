@@ -22,12 +22,12 @@ public class ThreadBusca extends Thread {
 		
 	}
 	
-	public void getCount {
+	public int getCount {
 
 		this.count = count;
 	}
 
-	public void getPosition {
+	public int getPosition {
 
 		this.pos = pos;
 	}
